@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A122D"
+    tools:context=".Main_bawang">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="244dp"
+        android:gravity="center"
+        android:text="BAWANG"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="1609dp"
+        android:layout_height="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="1000dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:layout_constraintWidth_max="1000dp"
+        app:srcCompat="@drawable/bawang" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="340dp"
+        android:background="#8A3747"
+        android:gravity="center"
+        android:text="Bawang merupakan istilah umum bagi sekelompok tumbuhan penting bagi manusia yang termasuk dalam genus Allium. Umbi, daun, atau bunga bawang dimanfaatkan sebagai sayuran atau sebagai rempah-rempah, tergantung bagaimana kita memandangnya."
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
